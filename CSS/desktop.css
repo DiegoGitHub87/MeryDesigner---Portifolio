@@ -1,0 +1,111 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+/*ESTRUTURA DO DOCUMENTO*/
+body{
+    margin: 0;
+    background-color: teal;
+}
+
+header{
+    background-color:teal;
+
+}
+main{
+    width: 100%;
+    display: table;
+    background-color: #F5F5F5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* DIV DA IMAGEM TOPO*/
+.img-header{
+   width: 400px; 
+   height: 200px;
+   display: block;
+   margin: 20px auto 20px auto;
+   border-radius: 4px;
+   box-shadow: 10px 10px 8px #000000;
+}
+
+/*CONTEUDO PRINCIPAL*/
+.container{
+    width: 100%;
+    display: table;
+}
+
+.div-estrutura01{
+    width: 25%;
+    display: table;
+    margin: 20px auto 20px 20px;
+    float: left;
+}
+.div-estrutura01 .img-foto{  
+    width: 70%;
+    max-width: 100%;
+    height:auto;
+    margin: auto;
+    display: block;
+    border-radius: 4px;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+.div-estrutura01 h1{
+    font-family: 'Lobster Two', cursive;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px auto 20px auto;
+}
+
+/*DIV DO INSTAGRAM*/
+.estrutura-div-instagram{
+    width: 15%;
+    display: table;
+    margin: 20px auto 5px auto;
+}
+
+.img-instagram{
+    width: 100%;
+    max-width: 100%;
+    height: 15%;
+    display: block;
+}
+
+/*BOTAO*/
+
+.btn{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(183, 139, 224);
+    border-radius: 2px;
+    margin: auto 199px 20px 199px;
+}
+
+.div-estrutura02{
+    width: 30%;
+    display: table;
+    margin: 20px auto auto 50px;
+    float: left;
+}
+
+.div-estrutura02 h1{
+    font-family: 'Lobster Two', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px auto 20px auto;
+}
+
+.div-estrutura02 p{
+    font-family: 'Lobster Two', cursive;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 40px;
+}
+
